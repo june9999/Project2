@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.food-pic{
+    height: 300px;
+    position: relative;
+}
+
+
+/* .receipt-body{
+    position: absolute;
+    TOP:210px;
+} */
