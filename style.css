@@ -4,20 +4,29 @@
     box-sizing: border-box;
 }
 
-
+/* receipt section */
 .food-pic{
     height: 300px;
     position: relative;
 }
-
 
 /* .receipt-body{
     position: absolute;
     TOP:210px;
 } */
 
-
-.card-group{
+.food-group{
     width:80%;
     margin: 0 auto;
+}
+
+/* team section */
+.team-group{
+    width:70%;
+    margin: 0 auto;
+    gap:10px
+}
+.member{
+    height:250px;
+    
 }
