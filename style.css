@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #984242;
+  background-color: #d1e3da !important;
+}
+.navbar sticky-top bg-body-tertiary {
+  background-color: #d8a7b1 !important;
+  padding-bottom: 1.2rem;
+}
+
+.container-fluid {
+  padding: 0 !important;
+  background-color: #d8a7b1 !important ;
+}
+.container-fluid a {
+  color: white !important;
+}
+.container-fluid a:hover {
+  color: #984242 !important;
+  scale: 1.1;
+}
+.nav-item a {
+  color: white !important;
+}
+.nav-item a:hover {
+  color: #984242 !important;
+  scale: 1.1;
+}
+/* The Cards Form Bootstrape */
+.card-group {
+  gap: 0.5rem !important;
+  padding: 1.2rem;
+}
+.card {
+  background-color: #fae8e0 !important;
+}
+.card-body:hover {
+  scale: 0.9;
+}
+.more-info {
+  color: #f2e8e8 !important;
+  background-color: #638c80;
+  border-radius: 2px;
+  margin: 1.1rem;
+  width: 40%;
+}
+.more-info a {
+  color: #f2e8e8 !important;
+  text-decoration: none;
+}
+.more-info a:hover {
+  color: #d8a7b1 !important;
+  scale: 1.1 !important;
+}
+
+/* Shelton Page */
+.mine {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 2.5rem;
+}
+.mine img {
+  width: 50%;
+  height: auto;
+  border-radius: 5px;
+  padding: 1.2rem;
+}
+.mine h5 {
+  color: lightslategray;
+}
+/* Footer */
+.footer {
+  background-color: #638c80;
+  align-items: center;
+  text-align: center;
+  height: 2.2rem;
+  color: aliceblue;
+}
+.footer a {
+  color: aliceblue;
+  text-decoration: none;
+}
