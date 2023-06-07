@@ -11,19 +11,19 @@
     position: relative;
 }
 
-/* .receipt-body{
+.receipt-body{
     position: absolute;
     TOP:210px;
-} */
+}
 
 .food-group{
-    width:80%;
+    width:100%;
     margin: 0 auto;
 }
 
 /* team section */
 .team-group{
-    width:60%;
+    width:80%;
     margin: 0 auto;
     gap:10px
 }
