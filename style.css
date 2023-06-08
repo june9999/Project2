@@ -4,11 +4,7 @@
   box-sizing: border-box;
 }
 
-/* receipt section */
-.food-pic {
-  height: 300px;
-  position: relative;
-}
+
 .logo {
   margin-left: 1.2rem;
 }
@@ -16,24 +12,33 @@
   height: 3rem;
   width: 3rem;
 }
-.receipt-body {
-  position: absolute;
-  top: 210px;
-}
-
-.food-group {
-  width: 100%;
-  margin: 0 auto;
-}
 
 /* team section */
-.team-group {
-  width: 80%;
+.team-group{
+  width:80%;
+  height: auto;
   margin: 0 auto;
-  gap: 10px;
+  gap:10px
 }
-.member {
-  height: 250px;
+
+.member{
+  height:400px;
+}
+
+.rec-page{
+padding-bottom: 20px;
+}
+
+
+/* Wenjun-Page */
+.xiaolong-foto{
+width:30%;
+border: solid white;
+}
+
+.des-wenjun{
+padding-top: 2rem;
+padding-right:3rem !important;
 }
 
 body {
