@@ -1,37 +1,40 @@
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* receipt section */
-.food-pic{
-    height: 300px;
-    position: relative;
+.food-pic {
+  height: 300px;
+  position: relative;
+}
+.logo {
+  margin-left: 1.2rem;
+}
+.logo img {
+  height: 3rem;
+  width: 3rem;
+}
+.receipt-body {
+  position: absolute;
+  top: 210px;
 }
 
-.receipt-body{
-    position: absolute;
-    TOP:210px;
-}
-
-.food-group{
-    width:100%;
-    margin: 0 auto;
+.food-group {
+  width: 100%;
+  margin: 0 auto;
 }
 
 /* team section */
-.team-group{
-    width:80%;
-    margin: 0 auto;
-    gap:10px
+.team-group {
+  width: 80%;
+  margin: 0 auto;
+  gap: 10px;
 }
-.member{
-    height:250px;
-    
+.member {
+  height: 250px;
 }
-
 
 body {
   font-family: "Roboto", sans-serif;
