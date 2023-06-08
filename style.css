@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .figure{
     background-color: #D8A7B1;
@@ -53,10 +54,26 @@
 .food-group{
     width:100%;
     margin: 0 auto;
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.logo {
+  margin-left: 1.2rem;
+}
+.logo img {
+  height: 3rem;
+  width: 3rem;
+>>>>>>> main
 }
 
 /* team section */
 .team-group{
+<<<<<<< HEAD
     width:80%;
     margin: 0 auto;
     gap:10px
@@ -66,6 +83,33 @@
     
 }
 
+=======
+  width:80%;
+  height: auto;
+  margin: 0 auto;
+  gap:10px
+}
+
+.member{
+  height:400px;
+}
+
+.rec-page{
+padding-bottom: 20px;
+}
+
+
+/* Wenjun-Page */
+.xiaolong-foto{
+width:30%;
+border: solid white;
+}
+
+.des-wenjun{
+padding-top: 2rem;
+padding-right:3rem !important;
+}
+>>>>>>> main
 
 body {
   font-family: "Roboto", sans-serif;
@@ -170,4 +214,7 @@ table {
   color: aliceblue;
   text-decoration: none;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
