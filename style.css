@@ -80,6 +80,12 @@ body {
   scale: 0.9;
 }
 .more-info {
+  background-color: #638c80;
+  border-radius: 5px;
+  margin: 1.7rem;
+  width: 30%;
+}
+.more-info hover {
   color: #f2e8e8 !important;
   background-color: #638c80;
   border-radius: 2px;
@@ -87,13 +93,13 @@ body {
   width: 40%;
 }
 .more-info a {
-  color: #f2e8e8 !important;
+  color: #f0e2e2 !important;
   text-decoration: none;
 }
-.more-info a:hover {
+/* .more-info a:hover {
   color: #d8a7b1 !important;
   scale: 1.1 !important;
-}
+} */
 
 /* Shelton Page */
 .mine {
