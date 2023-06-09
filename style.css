@@ -28,6 +28,35 @@
   justify-content: center;
   align-content: center;
 }
+ .figure{
+  background-color: #cf2a4b;
+  pointer-events: none;
+ }
+ 
+
+.figure2{
+  
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  background-color:rgb(170, 151, 171);
+  margin: 0;
+  font-size: larger;
+  justify-content: space-between;
+}
+
+.figure2 .figure3{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #702736;
+  font-size: larger;
+  
+}
+.figure4{
+  color:#16635c;
+  font-size: larger;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 
 
