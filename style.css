@@ -241,10 +241,10 @@ table {
 
 /* Rashmi */
 
-body {
+/* body {
   background-color: rebeccapurple;
   padding: 2rem 2rem;
-}
+} */
 
 .section-title {
   text-align: center;
@@ -347,7 +347,7 @@ img {
   padding-bottom: 2.5rem;
 }
 
-@media (max-width: 991px) {
+@media (max-width:1240px) {
   .contact-form {
     margin-bottom: 30px;
   }
@@ -355,4 +355,9 @@ img {
     width: 100%;
     height: 400px;
   }
+}
+
+
+.contact-title h2{
+  font-size: 2rem !important;
 }
