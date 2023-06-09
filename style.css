@@ -367,3 +367,9 @@ img {
 .contact-title h2{
   font-size: 2rem !important;
 }
+
+@media (max-width:350px) {
+ .contact-name{
+  font-size: 1rem !important;
+ }
+}
