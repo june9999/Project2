@@ -1,7 +1,11 @@
+
+
+
 .figure {
   background-color: #d8a7b1;
   width: 100%;
   height: 200px;
+
 }
 .figure h2 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -22,39 +26,43 @@
   width: 100%;
   margin: 0 0;
   align-items: center;
+  pointer-events: none;
 }
 
 .biryani1 {
   width: 100%;
   justify-content: center;
   align-content: center;
+  color:#87dfd8;
 }
- .figure{
-  background-color: #cf2a4b;
-  pointer-events: none;
- }
- 
 
+
+.biryani5{
+  padding-bottom: 1.2rem;
+}
+.figure{
+  padding-bottom: 1.8rem;
+}
 .figure2{
-  
+  padding-top: 10px;
   height: 100%;
   justify-content: center;
   align-items: center;
   margin-top: 5%;
-  background-color:rgb(170, 151, 171);
+  padding-left: 1.5rem;
   margin: 0;
   font-size: larger;
   justify-content: space-between;
 }
 
-.figure2 .figure3{
+.figure2 h2{
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: #702736;
+  color:#16635c;
   font-size: larger;
   
 }
 .figure4{
-  color:#16635c;
+  color:black;
   font-size: larger;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -116,6 +124,7 @@
 }
 
 /* Wenjun-Page */
+
 .xiaolong-foto {
   width: 30%;
   border: solid white;
@@ -125,6 +134,7 @@
   padding-top: 2rem;
   padding-right: 3rem !important;
   gap: 1.2rem;
+  padding-left: 3rem !important;
 }
 
 body {
@@ -239,10 +249,10 @@ table {
 
 /* Rashmi */
 
-body {
+/* body {
   background-color: rebeccapurple;
   padding: 2rem 2rem;
-}
+} */
 
 .section-title {
   text-align: center;
@@ -343,7 +353,7 @@ img {
   padding-bottom: 2.5rem;
 }
 
-@media (max-width: 991px) {
+@media (max-width:1240px) {
   .contact-form {
     margin-bottom: 30px;
   }
@@ -351,4 +361,9 @@ img {
     width: 100%;
     height: 400px;
   }
+}
+
+
+.contact-title h2{
+  font-size: 2rem !important;
 }
